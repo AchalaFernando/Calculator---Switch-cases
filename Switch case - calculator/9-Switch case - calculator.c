@@ -37,6 +37,10 @@ void main(){
             result = n1* n2;
             printf("  Multiplication of 2 numbers :-\n\n\n\n     Answer :- %d * %d =%d\n\n",n1,n2,result);
             break;
+
+        default:
+            printf("  You entered invalid operator!\n\n\n\n");
+            break;
     }
 
     printf("\n               All rights reserved ");
